@@ -1,0 +1,10 @@
+{
+  "name": "kaido-utils",
+  "version": "0.0.1",
+  "description": "kaido utils",
+  "main": "index.js",
+  "repository": "git@github.com:maxkaido/kaido-utils.git",
+  "author": "Max Kaido <maximkaido@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true
+}
