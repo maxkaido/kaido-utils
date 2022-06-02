@@ -2,9 +2,26 @@
   "name": "kaido-utils",
   "version": "0.0.1",
   "description": "kaido utils",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:maxkaido/kaido-utils.git",
   "author": "Max Kaido <maximkaido@gmail.com>",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev:build": "tsc --watch",
+    "dev:test": "jest --watch --verbose"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "dotenv": "^16.0.1",
+    "jest": "^28.1.0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.182",
+    "axios": "^0.27.2",
+    "consola": "^2.15.3",
+    "ethers": "^5.6.8",
+    "lodash": "^4.17.21"
+  }
 }
