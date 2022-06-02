@@ -34,7 +34,7 @@ const getTokenInfoFromProvider = async (
     const decimals = await erc20.decimals();
     return { address, symbol, decimals, name };
   } catch (e: any) {
-    consola.info("failed to get token info for ", address, e.message);
+    console.info("failed to get token info for ", address, e.message);
     return undefined;
   }
 };

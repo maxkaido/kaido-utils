@@ -12,7 +12,7 @@ const isContractCreationTx = async (provider, txHash) => {
             return false;
     }
     catch (e) {
-        consola.error(e);
+        console.log(e.message);
         return undefined;
     }
 };

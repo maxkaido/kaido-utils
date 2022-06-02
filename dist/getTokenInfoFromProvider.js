@@ -31,7 +31,7 @@ const getTokenInfoFromProvider = async (address, provider) => {
         return { address, symbol, decimals, name };
     }
     catch (e) {
-        consola.info("failed to get token info for ", address, e.message);
+        console.info("failed to get token info for ", address, e.message);
         return undefined;
     }
 };

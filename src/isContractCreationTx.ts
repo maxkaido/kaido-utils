@@ -10,8 +10,8 @@ const isContractCreationTx = async (
     const { to, contractAddress } = tx;
     if (to === null && contractAddress !== null) return contractAddress;
     else return false;
-  } catch (e) {
-    consola.error(e);
+  } catch (e: any) {
+    console.log(e.message);
     return undefined;
   }
 };
