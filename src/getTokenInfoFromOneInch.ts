@@ -12,7 +12,7 @@ const getTokenInfoFromOneInch = async (address: string) => {
     delete tokenInfo.logoURI;
     return tokenInfo;
   } catch (e: any) {
-    consola.info("failed to get token info", address, "from 1inch", e.message);
+    console.info("failed to get token info", address, "from 1inch", e.message);
     return undefined;
   }
 };

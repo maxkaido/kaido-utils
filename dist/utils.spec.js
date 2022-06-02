@@ -5,8 +5,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 require("dotenv").config({ path: ".env.test" });
 const globals_1 = require("@jest/globals");
-const consola = require("consola");
-consola.wrapAll();
+const consola_1 = __importDefault(require("consola"));
+consola_1.default.wrapAll();
 const ethers_1 = require("ethers");
 const getTokenInfoFromEtherscan_1 = __importDefault(require("./getTokenInfoFromEtherscan"));
 const getTokenInfoFromProvider_1 = __importDefault(require("./getTokenInfoFromProvider"));

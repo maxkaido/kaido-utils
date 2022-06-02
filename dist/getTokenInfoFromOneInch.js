@@ -15,7 +15,7 @@ const getTokenInfoFromOneInch = async (address) => {
         return tokenInfo;
     }
     catch (e) {
-        consola.info("failed to get token info", address, "from 1inch", e.message);
+        console.info("failed to get token info", address, "from 1inch", e.message);
         return undefined;
     }
 };

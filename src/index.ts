@@ -1,5 +1,3 @@
-import "./global";
-
 import isEmail from "./isEmail";
 import isContractCreationTx from "./isContractCreationTx";
 import getTokenInfoFromProvider from "./getTokenInfoFromProvider";

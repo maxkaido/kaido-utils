@@ -2,7 +2,7 @@ require("dotenv").config({ path: ".env.test" });
 
 import { describe, expect, test } from "@jest/globals";
 
-const consola = require("consola");
+import consola from "consola";
 consola.wrapAll();
 
 import { ethers } from "ethers";
