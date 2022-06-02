@@ -1,6 +1,6 @@
 {
   "name": "kaido-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "kaido utils",
   "main": "dist/index.js",
   "repository": "git@github.com:maxkaido/kaido-utils.git",
