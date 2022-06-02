@@ -4,6 +4,9 @@ import isEmail from "./isEmail";
 import isContractCreationTx from "./isContractCreationTx";
 import getTokenInfoFromProvider from "./getTokenInfoFromProvider";
 import getTokenInfoFromOneInch from "./getTokenInfoFromOneInch";
+import getTokenInfoFromEtherscan from "./getTokenInfoFromEtherscan";
+import telecoder from "./telecoder";
+import dockerName from "./dockerName";
 
 type TokenInfo = {
   symbol: string;
@@ -18,5 +21,8 @@ export {
   getTokenInfoFromProvider,
   isContractCreationTx,
   getTokenInfoFromOneInch,
+  getTokenInfoFromEtherscan,
+  telecoder,
+  dockerName,
   TokenInfo,
 };
